@@ -1,0 +1,9 @@
+#!/bin/sh
+device_id=$(xinput list | grep "Touchpad" | awk '{ print $6 }' | sed 's/[^0-9]//g')
+tapping_id=$(xinput list-props $device_id | grep "Tapping Enabled" | sed 's/[:].*$//' | sed 's/[^0-9]//g' | sed -n '1p')
+natural_scolling_id=$(xinput list-props $device_id | grep "Natural Scrolling Enabled" | sed 's/[:].*$//' | sed 's/[^0-9]//g' | sed -n '1p')
+#echo $device_id
+#echo $tapping_id
+#echo $natural_scolling_id
+xinput set-prop $device_id $tapping_id 1 &
+xinput set-prop $device_id $natural_scolling_id 1 &
