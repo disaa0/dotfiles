@@ -30,7 +30,7 @@ This repository contains the following configuration files and directories:
 
 - `.bashrc`: Custom configuration file for the Bash shell.
 - `bin/`: A directory containing executable scripts:
-    - `mirror`: A script to change the default mirror for software updates in the system.
+    - `mirror`: A script to mirror the contents of my main screen to a second monitor.
     - `toggle_kbd`: A script to toggle the keyboard layout between US and Latin American.
     - `touchpad_tunings`: A script to configure some touchpad settings.
 - `.config/`: A directory containing configuration files for various applications:
@@ -52,7 +52,6 @@ This repository contains the following configuration files and directories:
     - `sxhkd/`: Configuration file for the Sxhkd hotkey daemon.
     - `v4l.conf`: Configuration file for Video4Linux.
 - `.face.icon`: An image file used as the user's avatar.
-- `.git/`: A directory containing the Git version control system files.
 - `Git/`: A directory containing a bare Git repository to track changes to the dotfiles.
 - `LICENSE`: The license file for this repository.
 - `README.md`: This readme file.
