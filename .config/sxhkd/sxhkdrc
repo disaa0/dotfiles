@@ -30,10 +30,6 @@ super + a
 super + e
 	pcmanfm-qt
 
-# galaxy buds manager
-super + g
-	galaxybudsclient
-
 #emoji picker
 super + period
 	emote
@@ -45,6 +41,10 @@ control + alt + k
 #looking glass vm
 control + super + w
 	looking-glass-client -F -S -f /dev/kvmfr0
+
+# web browser
+control + super + f
+	librewolf
 
 #
 # bspwm hotkeys
@@ -220,3 +220,8 @@ XF86AudioNext
 #Change power profile
 XF86Launch4
 	asusctl profile -n
+
+#Turn off screen
+ctrl + alt + x
+	sleep 1 && xset -display :0.0 dpms force off
+

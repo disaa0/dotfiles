@@ -4,6 +4,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 nitrogen --restore &
 
+pcmanfm -d &
+
+wmname LG3D
+
 #$HOME/.config/polybar/launch.sh
 
 bspc monitor eDP-1 -d X Y Z

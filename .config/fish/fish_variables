@@ -1,8 +1,10 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export CHROME_EXECUTABLE:chromium
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt5ct
 SETUVAR --export SUDO_EDITOR:nvim
 SETUVAR --export TERMINAL:\x1d
+SETUVAR --export VISUAL:nvim
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr

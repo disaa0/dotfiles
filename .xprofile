@@ -11,6 +11,6 @@ sxhkd &
 xlayoutdisplay &
 /usr/lib/kdeconnectd &
 kdeconnect-indicator &
-sunshine &
+#sunshine &
 rog-control-center &
-exec bspwm
+ryzen-controller &
