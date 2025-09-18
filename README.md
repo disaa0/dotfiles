@@ -1,6 +1,6 @@
 # dotfiles
 
-This repository contains my custom dotfiles configuration files for my Linux system. These configuration files are located in the home directory (`~/`), and are hidden files that start with a period (`.`) to indicate that they are configuration files.
+This repository contains the configuration files for my Linux system. These configuration files are located in the home directory (`~/`), and are hidden files that start with a period (`.`) to indicate that they are configuration files.
 
 ## Installation
 
