@@ -1,0 +1,11 @@
+# Local customizations for Firefox-based browsers (including LibreWolf)
+# This file is persistent across updates
+
+# Allow D-Bus communication for opening URLs from other applications
+# This fixes "browser is already running but not responding" errors
+ignore nodbus
+
+# Allow proper D-Bus filtering instead of blocking it entirely
+# This maintains security while allowing necessary IPC
+ignore dbus-user none
+ignore dbus-system none

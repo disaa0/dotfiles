@@ -22,4 +22,8 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+#source ~/.config/zshrc.d/auto-Hypr.sh
 
+# Secrets
+[ -f ~/.zsh_secrets ] && source ~/.zsh_secrets
+alias config='git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'

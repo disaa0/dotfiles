@@ -1,0 +1,8 @@
+# Local customizations for LibreWolf
+# Enable D-Bus for URL handling from other applications
+
+ignore nodbus
+dbus-user filter
+dbus-user.own org.mozilla.librewolf.*
+dbus-user.own io.gitlab.librewolf.*
+dbus-user.talk org.freedesktop.Notifications

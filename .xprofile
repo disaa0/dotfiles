@@ -13,4 +13,7 @@ xlayoutdisplay &
 kdeconnect-indicator &
 #sunshine &
 rog-control-center &
-ryzen-controller &
+blueberry-tray &
+nm-applet &
+lxqt-policykit-agent &
+redshift-gtk &

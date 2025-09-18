@@ -3,7 +3,7 @@
 #
 
 # terminal emulator
-super + Return
+super + t
 	alacritty -e fish
 
 # program launcher
@@ -17,10 +17,6 @@ super + Escape
 # screenshot tool
 Print
 	flameshot gui
-
-# open pulsemixer
-super + p
-	alacritty -e pulsemixer
 
 # ani-cli rofiwrapper
 super + a
@@ -43,7 +39,7 @@ control + super + w
 	looking-glass-client -F -S -f /dev/kvmfr0
 
 # web browser
-control + super + f
+super + w
 	librewolf
 
 #
@@ -55,7 +51,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }w
+super + {_,shift + }q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout

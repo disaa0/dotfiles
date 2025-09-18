@@ -1,0 +1,35 @@
+# /home/disaa/.config/tmuxinator/roots-infra.yml
+
+name: roots-app
+root: ~/git/roots/roots-app/
+
+# Project hooks
+# on_project_start: command
+
+# Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
+startup_window: editor
+
+# Specifies (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
+startup_pane: 1
+
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - nvim:
+            - nvim .
+        - flutter:
+            -  #
+
+  - shell:
+      panes:
+        -  # default shell
+
+  - monitoring:
+      layout: main-vertical
+      main-pane-height: 75%
+      panes:
+        - claude-squad:
+            - cs
+        - claude-monitor:
+            - claude-monitor --plan max20

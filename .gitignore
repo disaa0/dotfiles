@@ -1,0 +1,59 @@
+# Sensitive data
+.aws/credentials
+.android/adbkey*
+.ssh/id_*
+.ssh/known_hosts
+.bash_history
+.Xauthority
+
+# Cache and temporary
+*cache/
+*Cache/
+*.tmp
+*.lock
+.bun/install/cache/
+node_modules/
+__pycache__/
+.android/cache/
+.android/avd/
+
+# Build artifacts
+*.log
+error.log
+*.swp
+*.swo
+*~
+
+# Large binary files
+*.img
+*.iso
+*.qcow2
+
+# Runtime generated
+.config/*/session
+.config/*/cookies
+.config/pulse/
+.config/*/Cache/
+.config/*/cache/
+
+# Browser profiles
+.config/chromium/
+.config/google-chrome/
+.config/BraveSoftware/
+.config/thorium/
+.config/vivaldi/
+
+# Electron apps
+.config/discord/
+.config/slack/
+.config/Signal/
+.config/Electron/
+
+# System
+.config/dconf/
+.config/gtk-*/
+.config/ibus/
+.config/procps/
+.config/user-dirs.*
+.config/mimeapps.list
+.config/pulse/

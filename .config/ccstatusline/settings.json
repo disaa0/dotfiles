@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "21338a88-33ae-41ee-ba4a-a1d3cc3cb83a",
+        "type": "model",
+        "color": "blue"
+      },
+      {
+        "id": "07a4e289-a995-437f-8084-62abff751476",
+        "type": "separator"
+      },
+      {
+        "id": "5",
+        "type": "git-branch",
+        "color": "blue"
+      },
+      {
+        "id": "469fdd18-2300-45ba-994f-b368fe13bbaf",
+        "type": "separator"
+      },
+      {
+        "id": "7",
+        "type": "git-changes",
+        "color": "brightBlue"
+      },
+      {
+        "id": "149a63f7-bbe6-40f0-a2aa-9420d611dcc0",
+        "type": "separator"
+      },
+      {
+        "id": "fcac687d-617e-418d-a20f-95f13393cf15",
+        "type": "session-clock",
+        "color": "brightBlack"
+      }
+    ],
+    [
+      {
+        "id": "06d63ca5-e16f-4c0d-8f37-13c2da91f7d0",
+        "type": "context-percentage-usable",
+        "color": "magenta"
+      },
+      {
+        "id": "655e4e96-0b03-4dcd-a5ff-2ba342ab048d",
+        "type": "custom-text",
+        "customText": " - "
+      },
+      {
+        "id": "c9039b16-3570-48d1-899c-1dc3c8d9c962",
+        "type": "context-length",
+        "color": "brightBlack"
+      },
+      {
+        "id": "4da7c17d-803d-46c3-8604-84ea8d85af28",
+        "type": "separator"
+      },
+      {
+        "id": "feb5d25e-1ad1-4a00-adce-a1d5660982cc",
+        "type": "tokens-output",
+        "color": "magenta"
+      },
+      {
+        "id": "218855a5-a4f5-4cb9-b619-41891617a817",
+        "type": "separator"
+      },
+      {
+        "id": "009407bd-e982-4763-a7c2-4d56886424e1",
+        "type": "tokens-input",
+        "color": "magenta"
+      }
+    ],
+    [
+      {
+        "id": "2fd7b1a7-f61a-4466-bc8f-f7edcd73f21c",
+        "type": "tokens-total",
+        "color": "white"
+      },
+      {
+        "id": "6759c83f-e625-47b5-8360-a09dbf8235ba",
+        "type": "separator"
+      },
+      {
+        "id": "09930159-9c01-486e-b7ad-d53ef8f4c3b2",
+        "type": "block-timer",
+        "color": "brightBlack"
+      }
+    ]
+  ],
+  "flexMode": "full-minus-40",
+  "compactThreshold": 60,
+  "colorLevel": 3,
+  "inheritSeparatorColors": false,
+  "globalBold": true,
+  "powerline": {
+    "enabled": false,
+    "separators": [
+      "☭"
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [],
+    "endCaps": [],
+    "autoAlign": false,
+    "theme": "custom"
+  },
+  "defaultPadding": ""
+}
